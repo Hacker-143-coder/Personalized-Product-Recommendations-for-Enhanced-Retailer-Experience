@@ -12,7 +12,7 @@ An AI-powered recommendation system designed to enhance the product discovery ex
 
 ## 🎯 Problem Statement
 
-Retailers on B2B platforms like Qwipo face significant challenges beyond just placing orders. The core problems are **inefficient product discovery** among thousands of items and a tendency to fall into **repetitive buying patterns**. This results in missed sales opportunities, stagnant inventory, and wasted time, which directly impacts a retailer's business growth and their ability to respond to changing market needs.
+Retailers on B2B platforms like Qwipo face big challenges beyond just placing orders. The main issues are inefficient product discovery among thousands of items and a tendency to stick to repetitive buying patterns. These problems lead to missed sales opportunities, stagnant inventory, and wasted time. All of this directly affects a retailer's business growth and their ability to respond to changing market needs. Retailers using B2B platforms like Qwipo deal with significant challenges that go beyond just placing orders. The primary issues include inefficient product discovery among thousands of items and a habit of engaging in repetitive buying patterns. These problems result in missed sales opportunities, stagnant inventory, and wasted time, which all impact a retailer's growth and limit their ability to respond to changing market demands.
 
 ---
 
@@ -114,4 +114,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📧 Contact
 
-Project Link: [https://github.com/your_username/qwipo-smart-assistant](https://github.com/your_username/qwipo-smart-assistant)
+Project Link: [[https://github.com/your_username/qwipo-smart-assistant](https://github.com/your_username/qwipo-smart-assistant)](https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience)
