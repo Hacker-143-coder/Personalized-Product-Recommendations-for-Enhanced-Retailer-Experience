@@ -30,8 +30,6 @@ We are building a **"Smart Shopping Assistant,"** an AI-powered recommendation s
 * **Optimized Inventory Management**: Helps retailers break free from repetitive buying patterns and discover high-potential new products.
 * **Scalable Architecture**: Built on a microservices architecture to ensure reliability and future growth.
 
-
-
 ---
 
 ## 🛠️ Tech Stack
@@ -67,30 +65,30 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installation
 
-1.  Clone the repo
+1. Clone the repo
     ```sh
-    git clone [https://github.com/your_username/qwipo-smart-assistant.git](https://github.com/your_username/qwipo-smart-assistant.git)
+    git clone https://github.com/your_username/qwipo-smart-assistant.git
     ```
-2.  Install NPM packages for the server
+2. Install NPM packages for the server
     ```sh
     cd server
     npm install
     ```
-3.  Install NPM packages for the client
+3. Install NPM packages for the client
     ```sh
     cd ../client
     npm install
     ```
-4.  Create a `.env` file in the `server` directory and add your environment variables (e.g., `MONGO_URI`, `GEMINI_API_KEY`).
+4. Create a `.env` file in the `server` directory and add your environment variables (e.g., `MONGO_URI`, `GEMINI_API_KEY`).
 
 ### Running the Application
 
-1.  Start the backend server
+1. Start the backend server
     ```sh
     cd server
     npm start
     ```
-2.  Start the frontend client
+2. Start the frontend client
     ```sh
     cd ../client
     npm start
@@ -114,4 +112,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📧 Contact
 
-Project Link: [[https://github.com/your_username/qwipo-smart-assistant](https://github.com/your_username/qwipo-smart-assistant)](https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience)
+Project Link: [https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience](https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience)
