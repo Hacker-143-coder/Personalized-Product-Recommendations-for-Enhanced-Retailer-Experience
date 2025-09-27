@@ -1,0 +1,2 @@
+# Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience
+a personalized product recommendation system for Qwipo, a B2B (Business-to-Business) marketplace. Think of it as creating a "smart shopping assistant" for the small shop owners (retailers) who use Qwipo to stock their stores. The goal is to make it easier for them to find the right products, discover new ones, and grow their business
