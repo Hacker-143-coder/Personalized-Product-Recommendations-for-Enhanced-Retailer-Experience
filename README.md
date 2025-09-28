@@ -1,115 +1,168 @@
-# Qwipo B2B - AI Smart Shopping Assistant 🛍️✨
+# Qwipo Personalized Recommendations Prototype 🎯📦  
 
-![Project Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Project Status](https://img.shields.io/badge/status-in%20progress-yellow)  
+![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
 
-An AI-powered recommendation system designed to enhance the product discovery experience for retailers on the Qwipo B2B marketplace.
-
----
-
-## 🎯 Problem Statement
-
-Retailers on B2B platforms like Qwipo face big challenges beyond just placing orders. The main issues are inefficient product discovery among thousands of items and a tendency to stick to repetitive buying patterns. These problems lead to missed sales opportunities, stagnant inventory, and wasted time. All of this directly affects a retailer's business growth and their ability to respond to changing market needs. Retailers using B2B platforms like Qwipo deal with significant challenges that go beyond just placing orders. The primary issues include inefficient product discovery among thousands of items and a habit of engaging in repetitive buying patterns. These problems result in missed sales opportunities, stagnant inventory, and wasted time, which all impact a retailer's growth and limit their ability to respond to changing market demands.
+An **AI-powered recommendation prototype** built for the **Qwipo B2B marketplace**, enhancing product discovery and optimizing retailer inventory with personalized suggestions.  
 
 ---
 
-## 💡 Our Solution: The Smart Shopping Assistant
+## 🎯 Problem Statement  
 
-We are building a **"Smart Shopping Assistant,"** an AI-powered recommendation system prototype that provides a personalized and intelligent shopping experience. Our solution analyzes retailer-specific data to offer relevant suggestions, helping them discover new products and optimize their inventory effortlessly.
+Retailers on B2B marketplaces like Qwipo often struggle with:  
+- **Inefficient product discovery** among thousands of SKUs.  
+- **Repetitive buying habits**, leading to stagnant inventory.  
+- **Missed opportunities** to upsell or cross-sell relevant products.  
 
----
-
-## ✨ Key Features
-
-* **Personalized Product Recommendations**: Uses AI to suggest products based on purchase history, browsing behavior, and market trends.
-* **Real-time Suggestions**: Leverages a Kafka data stream to capture live user behavior, ensuring recommendations are always fresh and relevant.
-* **Natural Language Queries**: Integrates the **Gemini API** to allow retailers to ask conversational questions (e.g., "What new beverage brands are popular this summer?").
-* **Optimized Inventory Management**: Helps retailers break free from repetitive buying patterns and discover high-potential new products.
-* **Scalable Architecture**: Built on a microservices architecture to ensure reliability and future growth.
+This directly impacts growth, profitability, and adaptability to changing market demands.  
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Our Solution  
 
-Our prototype is built with a modern and powerful tech stack:
-
-* **Frontend**: `React` (for a dynamic and responsive user interface)
-* **Backend**: `Node.js` (for handling real-time user interactions efficiently)
-* **Database**: `MongoDB` (for flexibility with complex product catalogs)
-* **AI / Machine Learning**: `TensorFlow` (for building robust recommendation models)
-* **Real-time Data Stream**: `Apache Kafka` (for capturing live event data)
-* **API Integration**: `Gemini API` (for advanced natural language features)
+We developed a **Smart Recommendation Engine** that:  
+- Analyzes **retailer orders** and **product patterns**.  
+- Delivers **personalized product suggestions**.  
+- Integrates seamlessly with Qwipo’s **branded frontend** and **backend APIs**.  
 
 ---
 
-## ⚙️ System Architecture
+## ✨ Key Features  
 
-The solution is based on a scalable **microservices architecture**. Each component is an independent service, ensuring high availability and fault tolerance. The core components include the API Gateway, User Service, Product Service, and the Recommendation Engine.
-
-*A detailed architecture diagram will be added here.*
-
----
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-* Node.js (v18.x or later)
-* npm / yarn
-* MongoDB installed and running
-
-### Installation
-
-1. Clone the repo
-    ```sh
-    git clone https://github.com/your_username/qwipo-smart-assistant.git
-    ```
-2. Install NPM packages for the server
-    ```sh
-    cd server
-    npm install
-    ```
-3. Install NPM packages for the client
-    ```sh
-    cd ../client
-    npm install
-    ```
-4. Create a `.env` file in the `server` directory and add your environment variables (e.g., `MONGO_URI`, `GEMINI_API_KEY`).
-
-### Running the Application
-
-1. Start the backend server
-    ```sh
-    cd server
-    npm start
-    ```
-2. Start the frontend client
-    ```sh
-    cd ../client
-    npm start
-    ```
+✅ **Personalized Recommendations** – Item-based collaborative filtering powered by scikit-learn.  
+✅ **Branded UI** – React + Vite frontend styled with Qwipo’s theme and logo.  
+✅ **API-First Architecture** – Node.js backend for products + FastAPI recommender service.  
+✅ **Database Seeding** – Preloaded with sample products, retailers, and orders.  
+✅ **Dockerized Setup** – Run everything with one `docker-compose up --build`.  
 
 ---
 
-## 🤝 Contributing
+## 🛠️ Tech Stack  
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-Please refer to the `CONTRIBUTING.md` file for our contribution guidelines.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+* **Frontend** → React (Vite) + Tailwind CSS  
+* **Backend** → Node.js + Express  
+* **Recommender** → Python + FastAPI + scikit-learn + joblib  
+* **Database** → MongoDB  
+* **Containerization** → Docker & Docker Compose  
 
 ---
 
-## 📧 Contact
+## ⚙️ System Architecture  
 
-Project Link: [https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience](https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience)
+1. **Frontend (React)** → UI for retailers.  
+2. **Backend (Node.js)** → REST API for product management and recommendations.  
+3. **Recommender (Python)** → Trains & serves ML models.  
+4. **MongoDB** → Stores products, retailers, and orders.  
+
+*A full architecture diagram can be added here.*  
+
+---
+
+## 🚀 Getting Started  
+
+### Prerequisites  
+- Node.js 18+  
+- Python 3.11+  
+- MongoDB (or Docker)  
+
+### Installation  
+
+```bash
+# Clone repository
+git clone https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience
+cd qwipo-branded-package
+```
+
+#### Backend (Node.js API)  
+```bash
+cd qwipo-backend
+npm install
+npm run seed   # Insert sample data
+npm run dev    # Run on http://localhost:5000
+```
+
+#### Recommender (Python FastAPI)  
+```bash
+cd recommender
+python -m venv .venv
+source .venv/bin/activate   # or .venv\Scripts\activate (Windows)
+pip install -r requirements.txt
+python train_and_save.py
+uvicorn api:app --reload --port 8001
+```
+
+#### Frontend (React + Vite)  
+```bash
+cd qwipo-frontend
+npm install
+npm run dev   # Run on http://localhost:5173
+```
+
+---
+
+## 🐳 Run with Docker  
+
+Run everything (MongoDB, Backend, Frontend, Recommender) at once:  
+
+```bash
+docker-compose up --build
+```
+
+Access:  
+- Frontend → http://localhost:5173  
+- Backend → http://localhost:5000  
+- Recommender → http://localhost:8001  
+
+⚠️ If MongoDB is already running locally, stop it or change the compose port to `27018:27017`.  
+
+---
+
+## 📊 Recommendation Flow  
+
+1. Retailer places orders → stored in MongoDB.  
+2. Recommender trains collaborative filtering model.  
+3. API fetches **recommended product IDs**.  
+4. Backend resolves IDs → returns full product details to frontend.  
+
+Example:  
+
+```bash
+GET http://localhost:5000/api/products/recommend/r1
+```
+
+Response:  
+
+```json
+{
+  "recommendations": [
+    { "_id": "p2", "name": "Surya Teja HMT Rice -25kg", "price": 1190 },
+    { "_id": "p3", "name": "Apple Brand Toor Dal", "price": 1180 }
+  ]
+}
+```
+
+---
+
+## 🤝 Contributing  
+
+We welcome contributions 🚀.  
+1. Fork the repo  
+2. Create a new branch (`feature/your-feature`)  
+3. Commit your changes  
+4. Push and open a PR  
+
+---
+
+## 📄 License  
+
+Distributed under the MIT License. See `LICENSE.txt` for more info.  
+
+---
+
+## 📧 Contact  
+
+Project Link → [GitHub Repo](https://github.com/Hacker-143-coder/Personalized-Product-Recommendations-for-Enhanced-Retailer-Experience)  
